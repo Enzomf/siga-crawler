@@ -1,0 +1,21 @@
+{
+  "name": "siga-crawler",
+  "version": "1.0.0",
+  "description": "Pacote que permite consultar algumas informações do aluno presentes no SIGA da FATEC",
+  "main": "index.ts",
+  "types": "index.d.ts" ,
+  "keywords": [
+    "siga",
+    "fatec",
+    "crawler"
+  ],
+  "author": "enzomf",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.7.7",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1"
+  }
+}
