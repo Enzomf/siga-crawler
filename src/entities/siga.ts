@@ -89,7 +89,7 @@ export class Siga {
       if (!cookies) return null;
 
       const sessionId = cookies.split(";")[0];
-      return sessionId;
+      return sessionId ?? null;
     } catch (e) {
       return null;
     }
